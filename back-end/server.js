@@ -32,4 +32,8 @@ app.post('/api/tasks', async (req, res) => {
   res.json(newTask);
 });
 
+app.get('/', (req, res) => {
+  res.send('Backend API is running successfully! 🚀');
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
