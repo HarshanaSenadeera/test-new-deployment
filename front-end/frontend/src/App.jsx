@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // Read backend URL from environment variables (falls back to local for dev)
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://testtodo-8kflaqzr.b4a.run/';
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
