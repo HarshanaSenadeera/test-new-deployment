@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = 'https://testtodo-8kflaqzr.b4a.run';
+const API_URL = 'https://testtodo-v5bo1vkl.b4a.run';
 
 function App() {
   const [tasks, setTasks] = useState([]);
